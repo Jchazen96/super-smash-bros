@@ -7,7 +7,7 @@ export default ({ name, color, setVisible, setSelectedCharacter }) => {
         }} 
             className="fighter" 
             style={{
-                backgroundImage: `url(https://www.smashbros.com/assets_v2/img/fighter/${name.toLowerCase()}/main.png), linear-gradient(140deg, ${color}, lightyellow, lightskyblue)`
+                backgroundImage: `url(https://www.smashbros.com/assets_v2/img/fighter/${name.toLowerCase()}/main.png), linear-gradient(140deg, ${color.join(', ')})`
                 }}>
             <h4>{name}</h4>
         </div>

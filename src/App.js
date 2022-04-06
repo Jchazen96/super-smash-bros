@@ -5,14 +5,14 @@ import SideNavigation from './components/SideNavigation';
 import {useState} from 'react';
 
 const characters = [
-  {name: 'Roy', color: 'red'},
-  {name: 'Fox', color: 'green'},
-  {name: 'Ganondorf', color: 'purple'},
-  {name: 'Sheik', color: 'lightskyblue'},
-  {name: 'Cloud', color: 'mediumseagreen'},
-  {name: 'Falco', color: 'orange'},
-  {name: 'Samus', color: 'firebrick'},              
-  {name: 'Link', color: 'yellow'},
+  {name: 'Roy', color: ['red', 'purple']},
+  {name: 'Fox', color: ['green', 'brown']},
+  {name: 'Ganondorf', color: ['purple', 'gray']},
+  {name: 'Sheik', color: ['lightskyblue',  'green']},
+  {name: 'Cloud', color: ['mediumseagreen', 'gold']},
+  {name: 'Falco', color: ['purple', 'lightskyblue']},
+  {name: 'Samus', color: ['orange', 'firebrick']},              
+  {name: 'Link', color: [ 'lightblue', 'gold']},
 ]
 
 function App() {
