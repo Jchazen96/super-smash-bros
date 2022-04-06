@@ -1,3 +1,9 @@
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 10em;
+  margin:0;
+}
+
 .App {
   display: flex;
   justify-content: center;
