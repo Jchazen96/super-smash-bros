@@ -5,7 +5,7 @@ const SideNavigation = ({isVisible, characters}) => {
                 characters.map((character) => {
                     return(
                         <div>
-                            <p>{character.name}</p>
+                            <img src={`https://www.smashbros.com/assets_v2/img/fighter/thumb_a/${character.name.toLowerCase()}.png`}/>
                         </div>
                     )
                 })
