@@ -7,8 +7,11 @@ const characters = [
   {name: 'Roy', color: 'red'},
   {name: 'Fox', color: 'green'},
   {name: 'Ganondorf', color: 'purple'},
-  {name: 'Sheik', color: 'lightskyblue'}
-
+  {name: 'Sheik', color: 'lightskyblue'},
+  {name: 'Cloud', color: 'mediumseagreen'},
+  {name: 'Falco', color: 'orange'},
+  {name: 'Samus', color: 'firebrick'},              
+  {name: 'Link', color: 'yellow'},
 ]
 
 function App() {

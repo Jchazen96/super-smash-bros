@@ -7,11 +7,13 @@
 
 .fighters-grid {
   display: flex;
+  flex-wrap: wrap;
   background-color: #ccc;
   border: 1px solid #858585;
   border-radius: 5px;
   width: min-content;
-  min-height: 500px;
+  min-width: 840px;
+  min-height: min-content;
 }
 
 .fighter {
