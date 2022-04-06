@@ -80,7 +80,7 @@ h1 {
   height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: gold;
+  background: linear-gradient(90deg, gold, red);
 }
 
 .char-nav {
@@ -90,5 +90,15 @@ h1 {
 .char-nav:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.close-button {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  position:fixed;
+  top:2.5%;
+  left: 2.5%;
+  color: #fff;
 }
 
