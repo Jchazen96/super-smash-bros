@@ -27,7 +27,6 @@ h1 {
   border-radius: 5px;
   transition: transform 0.3s;
   background-size: cover;
-  border: 5px solid transparent;
   background-repeat: no-repeat;
 
 }
@@ -35,7 +34,6 @@ h1 {
 .fighter:hover {
   transform: scale(1.1);
   cursor: pointer;
-  border: 5px solid white;
 }
 
 .fighter-screen {
@@ -56,9 +54,11 @@ h1 {
   text-transform: uppercase;
   font-family: 'Bebas Neue', cursive;
   color: lightgray;
+  opacity: 0.7;
 }
 
 .name-fg {
+  font-style: italic;
   font-size: 25em;
   position:absolute;
   left:8%;
